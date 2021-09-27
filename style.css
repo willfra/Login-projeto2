@@ -17,26 +17,33 @@ body {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background: #00c6ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: #00c6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top right,
+    #0072ff,
+    #00c6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top right,
+    #0072ff,
+    #00c6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h1 {
-    font-family: 'Merriweather Sans', sans-serif;
-    color: rgb(65, 65, 65);
+  font-family: "Merriweather Sans", sans-serif;
+  color: rgb(65, 65, 65);
 }
 h3 {
-    font-family: 'Merriweather Sans', sans-serif;
-    color: rgb(29, 29, 29);
-    font-weight: 400;
-    transition: all 0.5s;
+  font-family: "Merriweather Sans", sans-serif;
+  color: rgb(29, 29, 29);
+  font-weight: 400;
+  transition: all 0.5s;
 }
 h3 a {
-    color: #3498db;
+  color: #3498db;
 }
 h3 a:hover {
-    color: #50b9ff;
+  color: #50b9ff;
 }
 
 .conteudo {
@@ -44,6 +51,19 @@ h3 a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.logo {
+  width: 564px;
+  position: relative;
+  top: 20px;
+  border-radius: 20px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 20px 20px 0px 0px;
 }
 .box_login {
   text-align: center;
@@ -55,13 +75,36 @@ h3 a:hover {
   background-color: white;
   position: relative;
   border-radius: 20px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 .input_login_grid {
   display: grid;
   grid-gap: 0.5rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 3rem);
+}
+.campos_login:nth-child(1) {
+  grid-column: 1 / 4;
+  grid-row: 1 / 1;
+  width: 92%;
+}
+.campos_login:nth-child(2) {
+  grid-column: 1 / 1;
+  grid-row: 2 / 2;
+}
+.campos_login:nth-child(3) {
+  grid-column: 2 / 2;
+  grid-row: 2 / 2;
+}
+.campos_login:nth-child(4) {
+  grid-column: 1 / 1;
+  grid-row: 3;
+}
+.campos_login:nth-child(5) {
+  grid-column: 2 / 2;
+  grid-row: 3 / 3;
 }
 .box_login input {
   padding: 1rem;
@@ -73,8 +116,15 @@ h3 a:hover {
   color: grey;
 }
 .box_login input:active {
-    background-color: white;
-
+  background-color: white;
+}
+.sections b{
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 100;
+  color: rgb(65, 65, 65);
+}
+.sections a b {
+  color: #3498db;
 }
 
 button {
@@ -84,6 +134,7 @@ button {
   color: white;
   border: none;
   background-color: #3498db;
+  background-image: linear-gradient(to right, #3498db, #2cc3f1);
   border-radius: 0.8rem;
   text-align: center;
   font-size: 1rem;
@@ -92,9 +143,8 @@ button {
   transition: all 0.4s;
 }
 button:hover {
-    background-color: #50b9ff;
+  background-color: #50b9ff;
 }
 button i {
   float: right;
-
 }
