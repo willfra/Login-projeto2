@@ -48,6 +48,9 @@ section {
   color: rgb(65, 65, 65);
   text-decoration: none;
 }
+.show-menu{
+  left: -300px;
+}
 .topo_menu {
   padding: 0;
   padding-top: 20px;
@@ -59,7 +62,30 @@ section {
 .hamburguer {
   font-size: 2rem;
   cursor: pointer;
-  color: white;
+  position: fixed;
+  z-index: 20000;
+  top: 15px;
+  left: 20px;
+}
+#icon-menu-barra {
+  opacity: 0;
+  color: #3a3a3a;
+}
+.close-menu #icon-menu-barra {
+  opacity: 1;
+}
+.close-menu ,.hamburguer i {
+  right: 15rem;
+}
+.close-menu #icon-menu-x {
+  opacity: 0;
+}
+#icon-menu-x {
+  font-size: 2rem;
+  cursor: pointer;  
+  position: absolute;
+  z-index: 20000;
+  left: 160px;
 }
 .logo h1 {
   color: white;
