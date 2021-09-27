@@ -36,7 +36,7 @@ h1 {
 h3 {
   font-family: "Merriweather Sans", sans-serif;
   color: rgb(29, 29, 29);
-  font-weight: 400;
+  font-weight: 300;
   transition: all 0.5s;
 }
 h3 a {
@@ -78,34 +78,6 @@ h3 a:hover {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-.input_login_grid {
-  display: grid;
-  grid-gap: 0.5rem;
-  margin-top: 1rem;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 3rem);
-}
-.campos_login:nth-child(1) {
-  grid-column: 1 / 4;
-  grid-row: 1 / 1;
-  width: 92%;
-}
-.campos_login:nth-child(2) {
-  grid-column: 1 / 1;
-  grid-row: 2 / 2;
-}
-.campos_login:nth-child(3) {
-  grid-column: 2 / 2;
-  grid-row: 2 / 2;
-}
-.campos_login:nth-child(4) {
-  grid-column: 1 / 1;
-  grid-row: 3;
-}
-.campos_login:nth-child(5) {
-  grid-column: 2 / 2;
-  grid-row: 3 / 3;
-}
 .box_login input {
   padding: 1rem;
   border-radius: 0.8rem;
@@ -114,6 +86,8 @@ h3 a:hover {
   border: none;
   background-color: rgb(245, 245, 245);
   color: grey;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 300;
 }
 .box_login input:active {
   background-color: white;
@@ -141,6 +115,7 @@ button {
   cursor: pointer;
   position: relative;
   transition: all 0.4s;
+  width: 99%;
 }
 button:hover {
   background-color: #50b9ff;
@@ -148,3 +123,4 @@ button:hover {
 button i {
   float: right;
 }
+

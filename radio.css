@@ -1,0 +1,44 @@
+.radio_player {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+.playpause {
+  box-shadow: inset 0 -4px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.25),
+    0 4px rgba(0, 0, 0, 0.1);
+  width: 65px;
+  margin-right: 5px;
+  height: 65px;
+  float: left;
+  border-radius: 15px;
+  z-index: 9;
+  position: relative;
+  cursor: pointer;
+}
+.playpause {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(254, 213, 1),
+    rgb(255, 136, 0)
+  );
+  color: white;
+  text-align: center;
+  font-size: 37px !important;
+  line-height: 62px !important;
+}
+.radio-titulo {
+  background: white;
+  font-size: 20px;
+  border-radius: 15px;
+  line-height: 20px;
+  background-position: center;
+  padding: 22px;
+  box-shadow: inset 0 -4px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.25),
+    0 4px rgba(0, 0, 0, 0.1);
+  width: 105px;
+  background-size: 195px;
+  float: left;
+  height: 20px;
+}

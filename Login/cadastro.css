@@ -1,0 +1,28 @@
+.input_login_grid {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin-top: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 3rem);
+  }
+  .campos_login:nth-child(1) {
+    grid-column: 1 / 4;
+    grid-row: 1 / 1;
+    width: 92%;
+  }
+  .campos_login:nth-child(2) {
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+  }
+  .campos_login:nth-child(3) {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+  }
+  .campos_login:nth-child(4) {
+    grid-column: 1 / 1;
+    grid-row: 3;
+  }
+  .campos_login:nth-child(5) {
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+  }
