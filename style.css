@@ -1,0 +1,100 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;500;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+}
+
+body {
+  background-color: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: rgb(65, 65, 65);
+}
+h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: rgb(29, 29, 29);
+    font-weight: 400;
+    transition: all 0.5s;
+}
+h3 a {
+    color: #3498db;
+}
+h3 a:hover {
+    color: #50b9ff;
+}
+
+.conteudo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_login {
+  text-align: center;
+  height: auto;
+  display: grid;
+  width: 500px;
+  grid-gap: 0.9rem;
+  padding: 2rem;
+  background-color: white;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.input_login_grid {
+  display: grid;
+  grid-gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+.box_login input {
+  padding: 1rem;
+  border-radius: 0.8rem;
+  text-decoration: none;
+  box-shadow: none;
+  border: none;
+  background-color: rgb(245, 245, 245);
+  color: grey;
+}
+.box_login input:active {
+    background-color: white;
+
+}
+
+button {
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  background-color: #3498db;
+  border-radius: 0.8rem;
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.4s;
+}
+button:hover {
+    background-color: #50b9ff;
+}
+button i {
+  float: right;
+
+}
