@@ -33,7 +33,7 @@
                 <li><i class="far fa-sun"></i> Configurações</li>
             </a>
         </nav>
-        <div class="box_logout"><a href="../Login/login.html">
+        <div class="box_logout"><a href="../index.php">
                 <h3>Desconectar-se</h3>
             </a>
 
@@ -47,7 +47,7 @@
                 <div class="playpause" id="botao" onclick="play()">
                 <i aria-hidden="true" class="fa fa-play"></i></div>
                 <div class="radio-titulo"><i aria-hidden="true" class="fa fa-microphone"> NO AR</i></div>
-                <audio autoplay="autoplay" id="stream" src="http://stream.zeno.fm/bs8gqsmnzmruv" type="audio/mpeg">
+                <audio autoplay="autoplay" id="stream" src="http://stream.zeno.fm/14hdwdkkw38uv" type="audio/mpeg">
                 </audio>
                 </div>
         </div>

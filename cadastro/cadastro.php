@@ -22,7 +22,7 @@
                     <i aria-hidden="true" class="fa fa-play"></i>
                 </div>
                 <div class="radio-titulo"><i aria-hidden="true" class="fa fa-microphone"> NO AR</i></div>
-                <audio autoplay="autoplay" id="stream" src="http://stream.zeno.fm/bs8gqsmnzmruv" type="audio/mpeg">
+                <audio autoplay="autoplay" id="stream" src="http://stream.zeno.fm/14hdwdkkw38uv" type="audio/mpeg">
                 </audio>
             </div>
         </div>
@@ -31,7 +31,7 @@
         </div>
         <div class="box_login">
             <h1>Criar conta</h1>
-            <h3>Já tem uma conta? <a href="../index.html">Entrar</a></h2>
+            <h3>Já tem uma conta? <a href="../index.php">Entrar</a></h2>
                 <div class="input_login_grid">
                     <input class="campos_login" type="text" placeholder="E-mail">
                     <input class="campos_login" type="text" placeholder="Nome">

@@ -20,7 +20,7 @@
                 <div class="playpause" id="botao" onclick="play()">
                 <i aria-hidden="true" class="fa fa-play"></i></div>
                 <div class="radio-titulo"><i aria-hidden="true" class="fa fa-microphone"> NO AR</i></div>
-                <audio autoplay="autoplay" id="stream" src="http://stream.zeno.fm/bs8gqsmnzmruv" type="audio/mpeg">
+                <audio autoplay="autoplay" id="stream" src="http://stream.zeno.fm/14hdwdkkw38uv" type="audio/mpeg">
                 </audio>
                 </div>
         </div>
@@ -29,7 +29,7 @@
         </div>
         <div class="box_login">
             <h1>Login</h1>
-            <h3>Precisa de uma conta? <a href="./cadastro/cadastro.html">Cadastre-se</a></h2>
+            <h3>Precisa de uma conta? <a href="./cadastro/cadastro.php">Cadastre-se</a></h2>
                 <div class="input_login_grid">
                     <input class="campos_login" type="text" placeholder="Nick do habbo">
                     <input class="campos_login" type="text" placeholder="Senha">
